@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Exemplo Formulario Card</title>
+    <style>
+        .cor{
+            background-color: rgba(0,68,255,0.6);
+            color: white;
+            font-weight: bold;
+
+        }
+        label{
+            color: black;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .sombra{
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.19), 0 2px rgba(0, 0, 0, 0.23);
+            margin-right: 2px;
+            margin-bottom: 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Exemplo Formulario Card</h2>
+        <div class="card sombra">
+            <div class="card-header cor">
+                Cadastro de Clientes
+            </div>
+                <div class="card-body form-group">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <label for="">Nome</label>
+                            <input type="text" id="txtNome" class="form-control">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="">Data Nascimento</label>
+                            <input type="date" id="txtDataNasc" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-9">
+                            <label for="">CPF</label>
+                            <input type="text" id="txtCPF" class="form-control">
+                            </div>
+                            <div class="col-md-9">
+                                <label for="">RG</label>
+                                <input type="text" id="txtRG" class="form-control">
+                                </div>
+                                <div class="col-md-9">
+                                    <label for="">CNH</label>
+                                    <input type="text" id="txtCNH" class="form-control">
+                                    </div>
+
+                    </div>
+                    <div>
+                        <label for="">Nome da Mãe</label>
+                        <input type="text" id="txtNomeMae">
+                    </div>
+                    <div>
+                        <label for="">Nome do Pai</label>
+                        <input type="text" id="txtNomePai">
+                    </div>
+                </div>
+                <div class="card-footer bg-white">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button type="button" id="cmdSalvar" class="btn btn cor form-control">Salvar</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button type="button" id="cmdSalvar" class="btn btn cor form-control">Excluir</button>
+                        </div>   <div class="col-md-3">
+                            <button type="button" id="cmdSalvar" class="btn btn cor form-control">Pesquisar</button>
+                        </div>   <div class="col-md-3">
+                            <button type="button" id="cmdSalvar" class="btn btn cor form-control">Sair</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
